@@ -138,5 +138,14 @@ header {
 }
 
 .partners img {
-  height: 80px;
+  height: 90px;
+}
+
+@media all and (max-width: 480px) {
+  .bannerTextContent {
+    width: 100% !important;
+  }
+  .bannerWave {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
